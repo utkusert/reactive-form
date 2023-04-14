@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormComponent } from './forms/form/form.component';
+import { CvaInputComponent } from './forms/cva-input/cva-input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormComponent
+    FormComponent,
+    CvaInputComponent
   ],
   imports: [
     BrowserModule,
